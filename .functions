@@ -70,3 +70,6 @@ function psg { ps -awwwx | grep -i $1 | grep -v grep; }
 
 # searches jars for a specified entry
 function grepjar { find . -type f -name '*.jar' -exec grep -i -H $1 \{\} \; ; }
+
+# Open emacs in a new window
+function emacs { /Applications/Emacs.app/Contents/MacOS/Emacs -rv $@ &}
