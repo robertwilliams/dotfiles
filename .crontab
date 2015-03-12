@@ -1,0 +1,11 @@
+# brew nightly updates
+0 2 * * *  brew update
+15 2 * * *  brew upgrade
+30 2 * * * brew cleanup
+
+# brew cask
+0 3 * * * brew-cask update
+30 3 * * * brew-cask cleanup
+
+# npm
+0 5 * * *  npm update npm -g
