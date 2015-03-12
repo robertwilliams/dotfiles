@@ -73,3 +73,9 @@ function grepjar { find . -type f -name '*.jar' -exec grep -i -H $1 \{\} \; ; }
 
 # Open emacs in a new window
 function emacs { /Applications/Emacs.app/Contents/MacOS/Emacs -rv $@ &}
+
+# Open man page in Preview
+function manp() {
+	man -t "${1}" | open -f -a /Applications/Preview.app/
+}
+
