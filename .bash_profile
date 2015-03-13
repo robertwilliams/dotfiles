@@ -9,6 +9,9 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+# Don't autocomplete on empty line
+shopt -s no_empty_cmd_completion
+
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
 
