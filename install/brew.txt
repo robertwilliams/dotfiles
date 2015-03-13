@@ -1,0 +1,11 @@
+coreutils
+findutils
+bash
+homebrew/dupes/grep
+caskroom/cask/brew-cask
+ant
+bash-completion
+git
+git-flow
+node
+

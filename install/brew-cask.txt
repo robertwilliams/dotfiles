@@ -1,0 +1,52 @@
+# Communication
+adium	
+gitter
+skype
+slack
+twitterrific
+google-hangouts
+joinme
+gmail-notifier
+
+# Utility
+alfred
+disk-inventory-x
+dropzone
+growlnotify
+iterm2
+flux
+cyberduck
+dash
+
+# Editors and IDE
+emacs
+textwrangler
+intellij-idea
+marked
+github
+010-editor
+0xed
+textmate
+
+# Dev
+kitematic
+boot2docker
+java
+
+# Media
+handbrake
+kindle
+spotify
+vlc
+calibre
+pandora
+
+# Other
+google-chrome
+dropbox
+evernote
+google-drive
+1password
+istat-menus
+adobe-air
+
