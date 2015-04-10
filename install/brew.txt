@@ -4,7 +4,7 @@ bash
 homebrew/dupes/grep
 caskroom/cask/brew-cask
 ant
-bash-completion
+bash-completion2
 git
 git-flow-avh
 node
