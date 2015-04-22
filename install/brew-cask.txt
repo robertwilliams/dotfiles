@@ -6,7 +6,6 @@ slack
 twitterrific
 google-hangouts
 joinme
-gmail-notifier
 
 # Utility
 alfred
@@ -51,3 +50,7 @@ istat-menus
 adobe-air
 
 tower
+openoffice
+ynab
+colloquy
+menumeters
