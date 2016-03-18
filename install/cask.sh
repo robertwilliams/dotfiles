@@ -8,3 +8,4 @@ do
 		brew cask install $word --appdir=/Applications
 	fi
 done
+brew cask cleanup

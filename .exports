@@ -23,3 +23,16 @@ export MANPAGER='less -X';
 
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
+
+# Docker stuff
+export DOCKER_TLS_VERIFY="1"
+export DOCKER_HOST="tcp://192.168.9.240:2376"
+export DOCKER_CERT_PATH="/Users/robert/.docker/machine/machines/dev"
+export DOCKER_MACHINE_NAME="dev"
+
+# Groovy
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
+
+# Homebrew
+export HOMEBREW_GITHUB_API_TOKEN="ae210ba3f65924e74cc7a3ec74b9fe95b0cc8622"
+

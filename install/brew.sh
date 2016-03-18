@@ -5,8 +5,8 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 brew update
-
 brew upgrade
+
 for word in `sed 's/#.*//g' brew.txt | sed '/%[ \t]*$/d' | sed '/^$/d'` 
 do
 	brew list $word
@@ -15,4 +15,6 @@ do
 		brew install $word
 	fi
 done
+
+brew cleanup
 

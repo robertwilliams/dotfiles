@@ -6,8 +6,12 @@ caskroom/cask/brew-cask
 ant
 bash-completion
 git
-git-flow
+git-flow-avh
 node
 
 mackup
 tree
+unrar
+docker-machine
+homebrew/completions/brew-cask-completion
+gnu-sed

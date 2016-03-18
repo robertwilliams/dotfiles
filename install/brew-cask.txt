@@ -1,5 +1,5 @@
 # Communication
-adium	
+adium
 gitter
 skype
 slack
@@ -21,11 +21,12 @@ dash
 emacs
 textwrangler
 intellij-idea
-marked
 github
 010-editor
 0xed
 textmate
+eclipse-java
+pycharm-ce
 
 # Dev
 kitematic
@@ -54,3 +55,9 @@ openoffice
 ynab
 colloquy
 menumeters
+adobe-reader
+openoffice
+
+dockertoolbox
+atom
+gitup
