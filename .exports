@@ -25,10 +25,10 @@ export MANPAGER='less -X';
 export GREP_OPTIONS='--color=auto';
 
 # Docker stuff
-export DOCKER_TLS_VERIFY="1"
-export DOCKER_HOST="tcp://192.168.9.240:2376"
-export DOCKER_CERT_PATH="/Users/robert/.docker/machine/machines/dev"
-export DOCKER_MACHINE_NAME="dev"
+#export DOCKER_TLS_VERIFY="1"
+#export DOCKER_HOST="tcp://192.168.9.240:2376"
+#export DOCKER_CERT_PATH="/Users/robert/.docker/machine/machines/dev"
+#export DOCKER_MACHINE_NAME="dev"
 
 # Groovy
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
