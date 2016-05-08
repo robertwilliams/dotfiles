@@ -85,3 +85,4 @@ function pskill()
 	sudo kill -9 `ps -awwwx | grep -i $1 | grep -v grep | awk '{ print $1 }'`
 }
 
+function dbash { docker exec -i -t $1 /bin/bash; }
