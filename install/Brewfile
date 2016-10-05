@@ -70,4 +70,6 @@ cask 'docker-beta'
 mas 'Clocks', id: 414554506
 mas 'Growl', id: 467939042
 brew 'docker-completion'
-brew 'protobuf'
+brew 'protobuf260'
+cask 'dbeaver-community'
+brew 'npm'

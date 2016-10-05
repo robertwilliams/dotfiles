@@ -21,4 +21,5 @@ brew cleanup
 brew cask cleanup
 
 curl -L -s https://gist.github.com/Ea87/46401a96df31cd208a87/raw/gradle-tab-completion.bash \
-     -o ~/gradle-tab-completion.bash
+     -o ~/bin/gradle-tab-completion.bash --create-dirs
+npm install -g  yo
