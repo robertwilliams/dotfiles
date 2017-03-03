@@ -103,7 +103,7 @@ defaults write com.apple.helpviewer DevMode -bool true
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
 # Restart automatically if the computer freezes
-sudo systemsetup -setrestartfreeze on
+# sudo systemsetup -setrestartfreeze on
 
 # Never go into computer sleep mode
 # sudo systemsetup -setcomputersleep Off > /dev/null
@@ -734,7 +734,7 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 ###############################################################################
 
 # Disable signing emails by default
-defaults write ~/Library/Preferences/org.gpgtools.gpgmail SignNewEmailsByDefault -bool false
+# defaults write ~/Library/Preferences/org.gpgtools.gpgmail SignNewEmailsByDefault -bool false
 
 ###############################################################################
 # SizeUp.app                                                                  #

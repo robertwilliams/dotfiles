@@ -30,6 +30,9 @@ export GREP_OPTIONS='--color=auto';
 #export DOCKER_CERT_PATH="/Users/robert/.docker/machine/machines/dev"
 #export DOCKER_MACHINE_NAME="dev"
 
+# Java
+export JAVA_HOME=$(/usr/libexec/java_home)
+
 # Groovy
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 

@@ -1,10 +1,10 @@
 [user]
-	email = robert@williamsonline.us
+	email = robert.williams@zimperium.com
 	name = Robert Williams
 
 [github]
 	user = robertwilliams
-	
+
 [color]
 
 	# Use colors in Git commands that are capable of colored output when
@@ -65,7 +65,7 @@
 	safecrlf = warn
 	# prevent crlf (then you will have to deal with the problem -- dos2unix, etc)
 	#safecrlf = true
-	editor = emacs
+#	editor = emacs
 
 
 # [alias]
@@ -172,7 +172,7 @@
 
 [filter "tabspace"]
 	clean = expand -t 4
-	
+
 [push]
 
 	# Use the Git 1.x.x default to avoid errors on machines with old Git
@@ -210,3 +210,34 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[commit]
+	template = /Users/robert/.stCommitMsg
+[gitflow "init"]
+	defaults = true
+[gitflow "feature.start"]
+	fetch = true
+[gitflow "feature.finish"]
+	fetch = true
+	keep = false
+	keepremote = false
+	squash = true
+[gitflow "feature.delete"]
+	remote = false
+[gitflow "release.start"]
+	fetch = true
+[gitflow "release.finish"]
+	fetch = true
+	push = true
+	keep = false
+	keeplocal = false
+	keepremote = false
+[gitflow "hotfix.start"]
+	fetch = true
+[gitflow "hotfix.finish"]
+	fetch = true
+	push = true
+	keep = false
+	keeplocal = false
+	keepremote = false
+[gitflow "support.start"]
+	fetch = true
