@@ -1,5 +1,5 @@
 [user]
-	email = robert.williams@zimperium.com
+	email = robert0122@gmail.com
 	name = Robert Williams
 
 [github]
@@ -39,7 +39,7 @@
 [core]
 
 	# Use custom `.gitignore` and `.gitattributes`
-	excludesfile = /Users/robert/.gitignore
+	excludesfile = /Users/wilro32/.gitignore_global
 	attributesfile = ~/.gitattributes
 
 	# Treat spaces before tabs and all kinds of trailing whitespace as an error
@@ -211,7 +211,7 @@
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [commit]
-	template = /Users/robert/.stCommitMsg
+	template = /Users/wilro32/.stCommitMsg
 [gitflow "init"]
 	defaults = true
 [gitflow "feature.start"]
@@ -219,8 +219,8 @@
 [gitflow "feature.finish"]
 	fetch = true
 	keep = false
-	keepremote = false
-	squash = true
+	keepremote = true
+	squash = false
 [gitflow "feature.delete"]
 	remote = false
 [gitflow "release.start"]
@@ -230,7 +230,7 @@
 	push = true
 	keep = false
 	keeplocal = false
-	keepremote = false
+	keepremote = true
 [gitflow "hotfix.start"]
 	fetch = true
 [gitflow "hotfix.finish"]
@@ -238,6 +238,6 @@
 	push = true
 	keep = false
 	keeplocal = false
-	keepremote = false
+	keepremote = true
 [gitflow "support.start"]
 	fetch = true

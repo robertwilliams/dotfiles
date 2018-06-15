@@ -9,7 +9,6 @@ if test ! $(which brew); then
 fi
 
 brew update
-brew cask update
 brew upgrade
 
 brew tap Homebrew/bundle
