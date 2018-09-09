@@ -29,7 +29,9 @@ for option in autocd globstar; do
 done;
 
 # Add tab completion for many Bash commands
-source /usr/local/etc/bash_completion
+if [ -f /usr/local/share/bash-completion/bash_completion ]; then
+  . /usr/local/share/bash-completion/bash_completion
+fi
 
 # Add tab completion for gradle
 source ~/bin/gradle-tab-completion.bash

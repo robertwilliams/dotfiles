@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export HOMEBREW_CASK_OPTS='--appdir=/Applications --with-default-names'
-
 # Install homebrew
 if test ! $(which brew); then
   echo "Installing homebrew..."

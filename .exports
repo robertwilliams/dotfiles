@@ -38,3 +38,5 @@ export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
 # Homebrew
 export HOMEBREW_GITHUB_API_TOKEN="ae210ba3f65924e74cc7a3ec74b9fe95b0cc8622"
+export OAG_HOME=~/oag #This is deprecated in favor of OAG_DIR, but not everything is switched over yet
+export OAG_DIR=~/oag/.oag

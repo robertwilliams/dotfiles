@@ -104,3 +104,9 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias reload="exec $SHELL -l"
 
 alias stopvshield="sudo /usr/local/McAfee/AntiMalware/VSControl stopoas"
+alias ecr-login='eval $(aws --region us-east-2 ecr get-login --no-include-email | sed "s|https://.*|https://docker.oaganalytics.com|")'
+alias aws='docker run --rm -it -v ~/.aws:/root/.aws cgswong/aws:aws'
+alias iw-start='docker-compose -f ${OAG_HOME}/docker-compose.yaml up -d'
+alias iw-stop='docker-compose -f ${OAG_HOME}/docker-compose.yaml down'
+alias iw-update='ecr-login && iw-stop && docker-compose -f ${OAG_HOME}/docker-compose.yaml pull'
+alias iw-log='tail -f ${OAG_HOME}/logs/application.log'
