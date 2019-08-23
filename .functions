@@ -60,3 +60,26 @@ function pskill()
 }
 
 function dbash { docker exec -i -t $1 /bin/bash; }
+
+
+run-client ()
+{
+    if [[ $1 == "-L" ]]; then
+        shift;
+    else
+        eval $(aws ecr get-login --no-include-email | sed "s|https://.*|https://docker.oaganalytics.com|");
+    fi;
+    local img=docker.oaganalytics.com/wf-client:${1:-release};
+    _setup_app_container $img;
+    docker run --rm -it -p 3500:3500 --name wf-client --network oag-dev-net $img
+}
+
+function _setup_app_container() {
+  local img=${1}
+
+  if [[ $(docker network ls -f name=oag-dev-net | wc -l) -lt 2 ]]; then
+    docker network create oag-dev-net
+  fi
+
+  docker pull $img
+}
